@@ -1,0 +1,284 @@
+    @font-face{
+    font-family:Kumbh-Sans-bold;
+    src: url('../fonts/KumbhSans-Bold.ttf');
+   }
+    @font-face{
+    font-family:Kumbh-Sans;
+    src: url('../fonts/KumbhSans-Regular.ttf');
+   }
+   *{
+      padding:0;
+      margin: 0;
+      box-sizing: border-box;
+   }
+   a{
+      text-decoration: none;
+      color: #333950;
+   }
+   body{
+      background-color: #FAFAFA;
+   }
+   .container{
+    background-color: #FAFAFA;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+   }
+               /*************************The Navigation*************************/
+   .items{
+      font-family:Kumbh-Sans;
+      display: inline-block;
+      font-size: 20px;
+      padding-top: 70px;
+      padding-bottom:25px;
+      background-color:#FAFAFA;
+      word-spacing: 20px;
+      color:#5175FF;
+  }
+   .main-item:hover{
+      color:#747B95;
+  } 
+             /************************The Top Header****************************/
+   .logo{
+    padding-top: 60px;
+    padding-bottom: 65px;
+   }
+   .top-header{
+      display: flex;
+      justify-content:space-between;
+   }
+   .main-heading{
+     font-family:Kumbh-Sans-bold;
+     font-size:56px;
+     color:#333950;
+     margin-bottom:50px;
+   }
+   .main-txt{
+    font-family:Kumbh-Sans;
+    font-size:18px;
+    color:#747B95;
+    margin-bottom:30px;
+    text-align: justify 
+   }
+    .start-botton{
+    background-color:#5175FF ;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-family:Kumbh-Sans-Bold ;
+    font-size: 16px;
+    border:none ;
+    border-radius:28px ;
+    padding:15px 30px ; 
+   } 
+   .start-botton:hover{
+    background-color:#dde0ea;
+    color: #5175FF;
+    cursor: pointer;
+   }
+   .header{
+      display: flex;
+      justify-content: space-between;
+  }
+              /*************************Three Box*************************/
+   .box{
+    display: flex;
+    justify-content: space-between;
+   } 
+               /*************************Box No One*************************/
+   .basic-box{
+    border-color: #FAFAFA;
+    background-color:#FFFFFF;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 150px;
+    padding:30px 40px;
+    text-align: center;
+   }
+   .basic-box:hover{
+    background-color:#5175FF;
+   }
+   .basic-box:hover h1{
+      color:#FFFFFF;
+   }
+     .basic-box:hover p{
+      color:#FFFFFF;
+   }
+     .basic-box:hover button{
+      background-color: #dde0ea;
+      color: #5175FF;
+      cursor: pointer;
+   } 
+   .head{
+    color: #333950;
+    font-size: 20;
+    font-family:Kumbh-Sans-Bold ;
+    margin-bottom: 20px;
+   }
+   .num{
+      color: #333950;
+      font-size: 56px;
+      font-family:Kumbh-Sans-Bold ;
+      /* margin-bottom: 5px; */
+      }
+   
+   .up{
+    color:#333950;
+    font-family: Kumbh-Sans;
+    font-size: 16px;
+    margin-bottom: 50px;
+   }
+   .box-txt{
+    color: #747B95;
+    font-size: 16px;
+    line-height: 2.5;
+    font-family:Kumbh-Sans ;
+    margin-bottom: 10px;
+   }
+             /*************************Box No two*************************/
+   .pro-box{
+    border-color: #FAFAFA;
+    background-color:#FFFFFF;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 150px; 
+    padding: 30px 40px;
+    text-align: center; 
+ }
+ .pro-box:hover{
+   background-color:#5175FF;
+}
+  .pro-box:hover h1{
+     color:#FFFFFF;
+    }
+    .pro-box:hover p{
+     color:#FFFFFF;
+    }
+    .pro-box:hover button{
+      background-color: #dde0ea;
+      color: #5175FF;
+      cursor: pointer;
+     } 
+ 
+             /*************************Box No three*************************/
+ .ultimate-box{
+    border-color: #FAFAFA;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:#FFFFFF;
+    color: #333950;
+    margin-bottom: 150px;
+    padding: 30px 40px;
+    text-align: center;
+ }
+ .ultimate-box:hover{
+   background-color:#5175FF;
+}
+  .ultimate-box:hover h1{
+     color:#FFFFFF;
+    }
+    .ultimate-box:hover p{
+     color:#FFFFFF;
+    }
+    .ultimate-box:hover button{
+      background-color: #dde0ea;
+      color: #5175FF;
+      cursor: pointer;
+     } 
+
+             /*************************Footer*************************/
+ .footer{
+    display: flex;
+    justify-content: space-between;
+ } 
+ .left-footer{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family:Kumbh-Sans-bold ;
+    letter-spacing: 3px;
+ }
+ .right-footer{
+    color:#5175FF;
+    font-size: 16px;
+    font-family:Kumbh-Sans-bold ;
+    letter-spacing: 3px;
+ }
+ .footer-box{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .small-box{
+    border-color: #333950;
+    background-color:#333950;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 15px 15px; 
+    text-align: center;
+    margin-bottom: 100px;
+    margin-right: 20px; 
+
+ }
+ .number{
+    font-size: 56px;
+    font-family:Kumbh-Sans-bold ;
+    color:#FFFFFF ;
+ }
+ .details{
+    font-size: 16px;
+    font-family:Kumbh-Sans-bold ; 
+    color:#FFFFFF;
+ }
+
+
+ /* .free{
+    color: #333950;
+    font-size: 56px;
+    font-family:Kumbh-Sans-Bold ;
+    margin-bottom: 0px; 
+    text-transform: capitalize;
+   } */
+   /* .heaad{
+    color: #333950;;
+    font-size: 20;
+    font-family:Kumbh-Sans-Bold ;
+
+  } */
+
+ /* .per{
+    color: #333950;
+    font-family: Kumbh-Sans;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 62px;
+ } */
+ /* .center-txt{
+    color:#747B95;
+    font-size: 16px;
+    line-height: 2;
+    font-family:Kumbh-Sans;
+    width: 200px;
+ } */
+  /* .heaaad{
+    color: #333950;
+    font-size: 20;
+    font-family:Kumbh-Sans-Bold ;
+ } */
+ /* .numm{
+ color: #333950;
+ font-size: 56px;
+ font-family:Kumbh-Sans-Bold ;
+ } */
+ /* .peru{
+    color:#333950;
+    font-family: Kumbh-Sans;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+ } */
+ /* .right-txt{
+    color: #747B95;
+    font-size: 16px;
+    line-height: 2;
+    font-family:Kumbh-Sans;
+     width: 200px; 
+ } */
